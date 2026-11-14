@@ -62,7 +62,9 @@
 │   │   ├── data_classification.md # классификация данных: ПДн, коммерческая тайна, открытые
 │   │   ├── domain_description.md # описание предметной области
 │   │   ├── data_map.md           # карта данных
-│   │   ├── access_matrix.md      # матрица доступа и требования к защите
+│   │   ├── access_matrix.md      # роли и матрица доступа
+│   │   ├── data_protection.md    # обезличивание, журналирование, шифрование, копии, сроки
+│   │   ├── db_roles.md           # проект ролей PostgreSQL, права, функции, эскиз roles.sql
 │   │   └── data_flow.png         # схема потоков данных
 │   ├── diagrams/
 │   │   └── er_diagram.png        # ER-диаграмма
@@ -127,4 +129,3 @@ ER-диаграмма: `docs/diagrams/er_diagram.png`.
 | - | - |
 | - | - |
 
-Подробно: `sql/roles.sql`, `docs/analysis/access_matrix.md`.
